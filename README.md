@@ -7,7 +7,9 @@ Reads Python source files using the `ast` module, extracts docstrings, function 
 
 ## Quick Start
 ```bash
-pip install docforge
+git clone https://github.com/MrHassan2027/DocForge
+cd DocForge
+pip install -e .
 docforge ./mypackage -o ./docs
 ```
 
